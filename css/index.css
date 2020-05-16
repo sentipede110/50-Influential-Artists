@@ -89,37 +89,108 @@ video {
 html {
   font-size: 62.5%;
 }
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+html {
+  font-size: 62.5%;
+}
 body {
   background-color: whitesmoke;
+  text-align: center;
 }
 #page-wrap {
   width: 100vw;
   margin: 0 auto;
+  text-align: center;
 }
 a {
   align-content: center;
   text-decoration: none;
 }
-.title-container > img {
+.image {
+  position: relative;
+  width: 100%;
   min-width: 550px;
   min-height: 450px;
   max-height: 650px;
   max-width: 800px;
 }
-.image {
-  position: relative;
+.img-baby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.artist1 > img {
+  text-align: center;
   width: 100%;
+  min-width: 100px;
+  min-height: 150px;
+  max-height: 350px;
+  max-width: 200px;
+}
+.artist2 > img {
+  text-align: center;
+  width: 100%;
+  min-width: 100px;
+  min-height: 150px;
+  max-height: 350px;
+  max-width: 200px;
+}
+.artist1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.artist2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .h1 {
   position: absolute;
-  top: 200px;
-  left: 0;
   width: 100%;
   color: whitesmoke;
   font-weight: bold;
+  text-align: center;
 }
-.btn {
+button {
   position: absolute;
-  top: 300px;
-  left: 0;
+}
+.artists-container {
+  align-content: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
 }
